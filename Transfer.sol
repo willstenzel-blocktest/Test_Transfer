@@ -7,6 +7,6 @@ contract Transfer {
     }
     
     function test_transfer() public {
-        address(this).transfer(msg.value);
+        address(this).transfer(10000);
     }
 } 
